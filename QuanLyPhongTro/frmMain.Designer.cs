@@ -58,8 +58,9 @@
             Menu.Controls.Add(pictureBox1);
             Menu.Dock = DockStyle.Left;
             Menu.Location = new Point(0, 0);
+            Menu.Margin = new Padding(2, 2, 2, 2);
             Menu.Name = "Menu";
-            Menu.Size = new Size(350, 1024);
+            Menu.Size = new Size(280, 819);
             Menu.TabIndex = 0;
             // 
             // btnLogout
@@ -70,10 +71,11 @@
             btnLogout.FlatStyle = FlatStyle.Flat;
             btnLogout.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnLogout.ForeColor = SystemColors.ActiveCaptionText;
-            btnLogout.Location = new Point(0, 746);
+            btnLogout.Location = new Point(0, 597);
+            btnLogout.Margin = new Padding(2, 2, 2, 2);
             btnLogout.Name = "btnLogout";
-            btnLogout.Padding = new Padding(70, 0, 0, 0);
-            btnLogout.Size = new Size(350, 113);
+            btnLogout.Padding = new Padding(56, 0, 0, 0);
+            btnLogout.Size = new Size(280, 90);
             btnLogout.TabIndex = 6;
             btnLogout.Text = "Thoát";
             btnLogout.TextAlign = ContentAlignment.MiddleLeft;
@@ -88,10 +90,11 @@
             btnBaoCao.FlatStyle = FlatStyle.Flat;
             btnBaoCao.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnBaoCao.ForeColor = SystemColors.ActiveCaptionText;
-            btnBaoCao.Location = new Point(0, 591);
+            btnBaoCao.Location = new Point(0, 473);
+            btnBaoCao.Margin = new Padding(2, 2, 2, 2);
             btnBaoCao.Name = "btnBaoCao";
-            btnBaoCao.Padding = new Padding(70, 0, 0, 0);
-            btnBaoCao.Size = new Size(350, 113);
+            btnBaoCao.Padding = new Padding(56, 0, 0, 0);
+            btnBaoCao.Size = new Size(280, 90);
             btnBaoCao.TabIndex = 5;
             btnBaoCao.Text = "Báo cáo thống kê";
             btnBaoCao.TextAlign = ContentAlignment.MiddleLeft;
@@ -106,14 +109,16 @@
             btnHoaDon.FlatStyle = FlatStyle.Flat;
             btnHoaDon.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnHoaDon.ForeColor = SystemColors.ActiveCaptionText;
-            btnHoaDon.Location = new Point(0, 467);
+            btnHoaDon.Location = new Point(0, 374);
+            btnHoaDon.Margin = new Padding(2, 2, 2, 2);
             btnHoaDon.Name = "btnHoaDon";
-            btnHoaDon.Padding = new Padding(70, 0, 0, 0);
-            btnHoaDon.Size = new Size(350, 113);
+            btnHoaDon.Padding = new Padding(56, 0, 0, 0);
+            btnHoaDon.Size = new Size(280, 90);
             btnHoaDon.TabIndex = 4;
             btnHoaDon.Text = "Hóa đơn/ Tính tiền";
             btnHoaDon.TextAlign = ContentAlignment.MiddleLeft;
             btnHoaDon.UseVisualStyleBackColor = true;
+            btnHoaDon.Click += btnHoaDon_Click;
             // 
             // btnQLHopDong
             // 
@@ -123,10 +128,11 @@
             btnQLHopDong.FlatStyle = FlatStyle.Flat;
             btnQLHopDong.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnQLHopDong.ForeColor = SystemColors.ActiveCaptionText;
-            btnQLHopDong.Location = new Point(0, 344);
+            btnQLHopDong.Location = new Point(0, 275);
+            btnQLHopDong.Margin = new Padding(2, 2, 2, 2);
             btnQLHopDong.Name = "btnQLHopDong";
-            btnQLHopDong.Padding = new Padding(70, 0, 0, 0);
-            btnQLHopDong.Size = new Size(350, 113);
+            btnQLHopDong.Padding = new Padding(56, 0, 0, 0);
+            btnQLHopDong.Size = new Size(280, 90);
             btnQLHopDong.TabIndex = 3;
             btnQLHopDong.Text = "Quản lý hợp đồng";
             btnQLHopDong.TextAlign = ContentAlignment.MiddleLeft;
@@ -140,10 +146,11 @@
             btnQLKhachThue.FlatStyle = FlatStyle.Flat;
             btnQLKhachThue.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnQLKhachThue.ForeColor = SystemColors.ActiveCaptionText;
-            btnQLKhachThue.Location = new Point(0, 238);
+            btnQLKhachThue.Location = new Point(0, 190);
+            btnQLKhachThue.Margin = new Padding(2, 2, 2, 2);
             btnQLKhachThue.Name = "btnQLKhachThue";
-            btnQLKhachThue.Padding = new Padding(70, 0, 0, 0);
-            btnQLKhachThue.Size = new Size(350, 113);
+            btnQLKhachThue.Padding = new Padding(56, 0, 0, 0);
+            btnQLKhachThue.Size = new Size(280, 90);
             btnQLKhachThue.TabIndex = 2;
             btnQLKhachThue.Text = "Quản khách thuê";
             btnQLKhachThue.TextAlign = ContentAlignment.MiddleLeft;
@@ -158,10 +165,11 @@
             btQlPhongTro.FlatStyle = FlatStyle.Flat;
             btQlPhongTro.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btQlPhongTro.ForeColor = SystemColors.ActiveCaptionText;
-            btQlPhongTro.Location = new Point(0, 138);
+            btQlPhongTro.Location = new Point(0, 110);
+            btQlPhongTro.Margin = new Padding(2, 2, 2, 2);
             btQlPhongTro.Name = "btQlPhongTro";
-            btQlPhongTro.Padding = new Padding(70, 0, 0, 0);
-            btQlPhongTro.Size = new Size(350, 113);
+            btQlPhongTro.Padding = new Padding(56, 0, 0, 0);
+            btQlPhongTro.Size = new Size(280, 90);
             btQlPhongTro.TabIndex = 1;
             btQlPhongTro.Text = "Quản lý phòng";
             btQlPhongTro.TextAlign = ContentAlignment.MiddleLeft;
@@ -171,9 +179,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(-3, 1);
+            pictureBox1.Location = new Point(-2, 1);
+            pictureBox1.Margin = new Padding(2, 2, 2, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(335, 84);
+            pictureBox1.Size = new Size(268, 67);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -183,18 +192,20 @@
             panel1.BackColor = Color.WhiteSmoke;
             panel1.Controls.Add(btnSlide);
             panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(350, 0);
+            panel1.Location = new Point(280, 0);
+            panel1.Margin = new Padding(2, 2, 2, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1548, 60);
+            panel1.Size = new Size(1238, 48);
             panel1.TabIndex = 1;
             // 
             // btnSlide
             // 
             btnSlide.Cursor = Cursors.Hand;
             btnSlide.Image = (Image)resources.GetObject("btnSlide.Image");
-            btnSlide.Location = new Point(6, 9);
+            btnSlide.Location = new Point(5, 7);
+            btnSlide.Margin = new Padding(2, 2, 2, 2);
             btnSlide.Name = "btnSlide";
-            btnSlide.Size = new Size(45, 45);
+            btnSlide.Size = new Size(36, 36);
             btnSlide.SizeMode = PictureBoxSizeMode.Zoom;
             btnSlide.TabIndex = 0;
             btnSlide.TabStop = false;
@@ -204,20 +215,22 @@
             // 
             panel2.BackColor = Color.WhiteSmoke;
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(350, 60);
+            panel2.Location = new Point(280, 48);
+            panel2.Margin = new Padding(2, 2, 2, 2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1548, 964);
+            panel2.Size = new Size(1238, 771);
             panel2.TabIndex = 2;
             // 
             // frmMain
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1898, 1024);
+            ClientSize = new Size(1518, 819);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(Menu);
             FormBorderStyle = FormBorderStyle.Fixed3D;
+            Margin = new Padding(2, 2, 2, 2);
             Name = "frmMain";
             Text = "frmMain";
             Menu.ResumeLayout(false);

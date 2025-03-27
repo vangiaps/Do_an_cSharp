@@ -66,5 +66,17 @@ namespace QuanLyPhongTro
 
             baoCao.frmBaoCao_Load(sender, e);
         }
+
+        private void btnHoaDon_Click(object sender, EventArgs e)
+        {
+            frmQLHoaDon hoaDon = new frmQLHoaDon();
+            hoaDon.TopLevel = false;
+            hoaDon.FormBorderStyle = FormBorderStyle.None;
+            hoaDon.Dock = DockStyle.Fill;
+            panel2.Controls.Clear();
+            panel2.Controls.Add(hoaDon);
+            hoaDon.Show();
+            
+        }
     }
 }

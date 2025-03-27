@@ -5,7 +5,7 @@ namespace QuanLyPhongTro
 {
     class Database
     {
-        private string connectionString = "Server=DESKTOP-85PII9M\\SQLEXPRESS;Database=QuanLyPhongTro;Integrated Security=True;TrustServerCertificate=True";
+        private string connectionString = "Server=localhost\\SQLEXPRESS;Database=QuanLyPhongTro;Integrated Security=True;TrustServerCertificate=True";
 
         public void Connect()
         {
@@ -63,6 +63,11 @@ namespace QuanLyPhongTro
                     return cmd.ExecuteNonQuery();
                 }
             }
+        }
+
+        internal DataTable ExecuteQuery(string query, Dictionary<string, object> parameters)
+        {
+            throw new NotImplementedException();
         }
 
         //public void GetData()
