@@ -28,300 +28,310 @@
         /// </summary>
         private void InitializeComponent()
         {
-            groupBox1 = new GroupBox();
-            btnLoad = new Button();
-            btnSearch = new Button();
-            txtSearch = new TextBox();
-            label1 = new Label();
+            tabControl1 = new TabControl();
+            tabPage1 = new TabPage();
             dataGridViewHoaDon = new DataGridView();
-            groupBox2 = new GroupBox();
-            groupBox3 = new GroupBox();
-            label7 = new Label();
+            panel1 = new Panel();
             label6 = new Label();
             label5 = new Label();
+            button5 = new Button();
+            textBox6 = new TextBox();
+            textBox4 = new TextBox();
+            label4 = new Label();
+            textBox3 = new TextBox();
+            label3 = new Label();
+            textBox2 = new TextBox();
+            label2 = new Label();
+            txtTimKiem = new TextBox();
+            panel3 = new Panel();
             button4 = new Button();
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
-            txtNgayMoi = new TextBox();
-            label4 = new Label();
-            txtNgayCu = new TextBox();
-            label3 = new Label();
-            label2 = new Label();
-            txtTongTien = new TextBox();
-            txtSoPhong = new TextBox();
-            groupBox1.SuspendLayout();
+            panel2 = new Panel();
+            label1 = new Label();
+            tabPage2 = new TabPage();
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewHoaDon).BeginInit();
-            groupBox2.SuspendLayout();
-            groupBox3.SuspendLayout();
+            panel1.SuspendLayout();
+            panel3.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
-            // groupBox1
+            // tabControl1
             // 
-            groupBox1.BackColor = SystemColors.ControlLight;
-            groupBox1.Controls.Add(btnLoad);
-            groupBox1.Controls.Add(btnSearch);
-            groupBox1.Controls.Add(txtSearch);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Controls.Add(dataGridViewHoaDon);
-            groupBox1.Dock = DockStyle.Bottom;
-            groupBox1.Location = new Point(0, 255);
-            groupBox1.Margin = new Padding(3, 4, 3, 4);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(3, 4, 3, 4);
-            groupBox1.Size = new Size(1220, 469);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Dock = DockStyle.Fill;
+            tabControl1.Location = new Point(0, 0);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new Size(845, 463);
+            tabControl1.TabIndex = 0;
             // 
-            // btnLoad
+            // tabPage1
             // 
-            btnLoad.Location = new Point(815, 7);
-            btnLoad.Margin = new Padding(3, 4, 3, 4);
-            btnLoad.Name = "btnLoad";
-            btnLoad.Size = new Size(86, 31);
-            btnLoad.TabIndex = 4;
-            btnLoad.Text = "Làm mới";
-            btnLoad.UseVisualStyleBackColor = true;
-            // 
-            // btnSearch
-            // 
-            btnSearch.Location = new Point(698, 7);
-            btnSearch.Margin = new Padding(3, 4, 3, 4);
-            btnSearch.Name = "btnSearch";
-            btnSearch.Size = new Size(86, 31);
-            btnSearch.TabIndex = 3;
-            btnSearch.Text = "Tìm kiếm";
-            btnSearch.UseVisualStyleBackColor = true;
-            btnSearch.Click += btnSearch_Click;
-            // 
-            // txtSearch
-            // 
-            txtSearch.Location = new Point(477, 9);
-            txtSearch.Margin = new Padding(3, 4, 3, 4);
-            txtSearch.Name = "txtSearch";
-            txtSearch.Size = new Size(215, 27);
-            txtSearch.TabIndex = 2;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(7, 17);
-            label1.Name = "label1";
-            label1.Size = new Size(136, 20);
-            label1.TabIndex = 1;
-            label1.Text = "Danh sách hóa đơn";
+            tabPage1.Controls.Add(dataGridViewHoaDon);
+            tabPage1.Controls.Add(panel1);
+            tabPage1.Location = new Point(4, 24);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(837, 435);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "tabPage1";
+            tabPage1.UseVisualStyleBackColor = true;
             // 
             // dataGridViewHoaDon
             // 
+            dataGridViewHoaDon.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewHoaDon.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewHoaDon.Dock = DockStyle.Bottom;
-            dataGridViewHoaDon.Location = new Point(3, 46);
-            dataGridViewHoaDon.Margin = new Padding(3, 4, 3, 4);
+            dataGridViewHoaDon.Dock = DockStyle.Fill;
+            dataGridViewHoaDon.Location = new Point(3, 184);
             dataGridViewHoaDon.Name = "dataGridViewHoaDon";
-            dataGridViewHoaDon.RowHeadersWidth = 51;
-            dataGridViewHoaDon.Size = new Size(1214, 419);
-            dataGridViewHoaDon.TabIndex = 0;
+            dataGridViewHoaDon.Size = new Size(831, 248);
+            dataGridViewHoaDon.TabIndex = 1;
             // 
-            // groupBox2
+            // panel1
             // 
-            groupBox2.BackColor = SystemColors.ControlLight;
-            groupBox2.Controls.Add(groupBox3);
-            groupBox2.Controls.Add(button4);
-            groupBox2.Controls.Add(button3);
-            groupBox2.Controls.Add(button2);
-            groupBox2.Controls.Add(button1);
-            groupBox2.Controls.Add(txtNgayMoi);
-            groupBox2.Controls.Add(label4);
-            groupBox2.Controls.Add(txtNgayCu);
-            groupBox2.Controls.Add(label3);
-            groupBox2.Controls.Add(label2);
-            groupBox2.Controls.Add(txtTongTien);
-            groupBox2.Controls.Add(txtSoPhong);
-            groupBox2.Dock = DockStyle.Top;
-            groupBox2.Location = new Point(0, 0);
-            groupBox2.Margin = new Padding(3, 4, 3, 4);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Padding = new Padding(3, 4, 3, 4);
-            groupBox2.Size = new Size(1220, 247);
-            groupBox2.TabIndex = 1;
-            groupBox2.TabStop = false;
-            // 
-            // groupBox3
-            // 
-            groupBox3.Controls.Add(label7);
-            groupBox3.Controls.Add(label6);
-            groupBox3.Controls.Add(label5);
-            groupBox3.Location = new Point(0, 0);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(914, 50);
-            groupBox3.TabIndex = 11;
-            groupBox3.TabStop = false;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(289, 12);
-            label7.Name = "label7";
-            label7.Size = new Size(118, 20);
-            label7.TabIndex = 2;
-            label7.Text = "Chưa thanh toán";
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(button5);
+            panel1.Controls.Add(textBox6);
+            panel1.Controls.Add(textBox4);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(textBox3);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(textBox2);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(txtTimKiem);
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(panel2);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(3, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(831, 181);
+            panel1.TabIndex = 0;
             // 
             // label6
             // 
+            label6.Anchor = AnchorStyles.Right;
             label6.AutoSize = true;
-            label6.Location = new Point(158, 12);
+            label6.Location = new Point(535, 115);
             label6.Name = "label6";
-            label6.Size = new Size(103, 20);
-            label6.TabIndex = 1;
-            label6.Text = "Đã thanh toán";
+            label6.Size = new Size(38, 15);
+            label6.TabIndex = 12;
+            label6.Text = "label6";
             // 
             // label5
             // 
+            label5.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             label5.AutoSize = true;
-            label5.Location = new Point(40, 14);
+            label5.Location = new Point(326, 115);
             label5.Name = "label5";
-            label5.Size = new Size(49, 20);
-            label5.TabIndex = 0;
-            label5.Text = "Tất cả";
+            label5.Size = new Size(38, 15);
+            label5.TabIndex = 11;
+            label5.Text = "label5";
             // 
-            // button4
+            // button5
             // 
-            button4.Font = new Font("Segoe UI", 12F);
-            button4.Location = new Point(749, 169);
-            button4.Name = "button4";
-            button4.Size = new Size(110, 35);
-            button4.TabIndex = 10;
-            button4.Text = "Xóa";
-            button4.UseVisualStyleBackColor = true;
+            button5.Location = new Point(97, 97);
+            button5.Name = "button5";
+            button5.Size = new Size(91, 33);
+            button5.TabIndex = 10;
+            button5.Text = "button5";
+            button5.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // textBox6
             // 
-            button3.Font = new Font("Segoe UI", 12F);
-            button3.Location = new Point(749, 72);
-            button3.Name = "button3";
-            button3.Size = new Size(110, 35);
-            button3.TabIndex = 9;
-            button3.Text = "Sửa";
-            button3.UseVisualStyleBackColor = true;
+            textBox6.Anchor = AnchorStyles.Right;
+            textBox6.Location = new Point(605, 107);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(219, 23);
+            textBox6.TabIndex = 9;
             // 
-            // button2
+            // textBox4
             // 
-            button2.Font = new Font("Segoe UI", 12F);
-            button2.Location = new Point(590, 173);
-            button2.Name = "button2";
-            button2.Size = new Size(110, 35);
-            button2.TabIndex = 8;
-            button2.Text = "Thêm";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.Font = new Font("Segoe UI", 12F);
-            button1.Location = new Point(590, 72);
-            button1.Name = "button1";
-            button1.Size = new Size(110, 35);
-            button1.TabIndex = 7;
-            button1.Text = "Chi tiết";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // txtNgayMoi
-            // 
-            txtNgayMoi.Location = new Point(317, 118);
-            txtNgayMoi.Name = "txtNgayMoi";
-            txtNgayMoi.Size = new Size(146, 27);
-            txtNgayMoi.TabIndex = 6;
+            textBox4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            textBox4.Location = new Point(380, 107);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(84, 23);
+            textBox4.TabIndex = 7;
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.Right;
             label4.AutoSize = true;
-            label4.Location = new Point(39, 125);
+            label4.Location = new Point(535, 64);
             label4.Name = "label4";
-            label4.Size = new Size(108, 20);
-            label4.TabIndex = 5;
-            label4.Text = "Ngày cập nhật:";
+            label4.Size = new Size(38, 15);
+            label4.TabIndex = 6;
+            label4.Text = "label4";
             // 
-            // txtNgayCu
+            // textBox3
             // 
-            txtNgayCu.Location = new Point(161, 118);
-            txtNgayCu.Name = "txtNgayCu";
-            txtNgayCu.Size = new Size(133, 27);
-            txtNgayCu.TabIndex = 4;
+            textBox3.Anchor = AnchorStyles.Right;
+            textBox3.Location = new Point(605, 61);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(219, 23);
+            textBox3.TabIndex = 5;
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             label3.AutoSize = true;
-            label3.Location = new Point(40, 173);
+            label3.Location = new Point(326, 61);
             label3.Name = "label3";
-            label3.Size = new Size(75, 20);
-            label3.TabIndex = 3;
-            label3.Text = "Tổng tiền:";
+            label3.Size = new Size(38, 15);
+            label3.TabIndex = 1;
+            label3.Text = "label3";
+            // 
+            // textBox2
+            // 
+            textBox2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            textBox2.Location = new Point(380, 56);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(84, 23);
+            textBox2.TabIndex = 4;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(40, 83);
+            label2.Location = new Point(12, 56);
             label2.Name = "label2";
-            label2.Size = new Size(73, 20);
-            label2.TabIndex = 2;
-            label2.Text = "Phòng số:";
+            label2.Size = new Size(57, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Tìm kiếm";
             // 
-            // txtTongTien
+            // txtTimKiem
             // 
-            txtTongTien.Location = new Point(162, 166);
-            txtTongTien.Name = "txtTongTien";
-            txtTongTien.Size = new Size(125, 27);
-            txtTongTien.TabIndex = 1;
+            txtTimKiem.Location = new Point(73, 53);
+            txtTimKiem.Name = "txtTimKiem";
+            txtTimKiem.Size = new Size(214, 23);
+            txtTimKiem.TabIndex = 2;
             // 
-            // txtSoPhong
+            // panel3
             // 
-            txtSoPhong.Location = new Point(162, 72);
-            txtSoPhong.Name = "txtSoPhong";
-            txtSoPhong.Size = new Size(199, 27);
-            txtSoPhong.TabIndex = 0;
+            panel3.Controls.Add(button4);
+            panel3.Controls.Add(button3);
+            panel3.Controls.Add(button2);
+            panel3.Controls.Add(button1);
+            panel3.Dock = DockStyle.Bottom;
+            panel3.Location = new Point(0, 144);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(831, 37);
+            panel3.TabIndex = 1;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(12, 3);
+            button4.Name = "button4";
+            button4.Size = new Size(75, 23);
+            button4.TabIndex = 3;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Anchor = AnchorStyles.Right;
+            button3.Location = new Point(723, 8);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 2;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Anchor = AnchorStyles.Right;
+            button2.Location = new Point(617, 8);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 1;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.Anchor = AnchorStyles.Right;
+            button1.Location = new Point(511, 9);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 0;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(label1);
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(831, 34);
+            panel2.TabIndex = 0;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(49, 10);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 0;
+            label1.Text = "label1";
+            // 
+            // tabPage2
+            // 
+            tabPage2.Location = new Point(4, 24);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3);
+            tabPage2.Size = new Size(837, 435);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "tabPage2";
+            tabPage2.UseVisualStyleBackColor = true;
             // 
             // frmQLHoaDon
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1220, 724);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
-            Margin = new Padding(3, 4, 3, 4);
+            ClientSize = new Size(845, 463);
+            Controls.Add(tabControl1);
             Name = "frmQLHoaDon";
             Text = "frmQLHoaDon";
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridViewHoaDon).EndInit();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
-            groupBox3.ResumeLayout(false);
-            groupBox3.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private GroupBox groupBox1;
-        private GroupBox groupBox2;
+        private TabControl tabControl1;
+        private TabPage tabPage1;
+        private Panel panel1;
+        private TabPage tabPage2;
         private DataGridView dataGridViewHoaDon;
-        private Button btnLoad;
-        private Button btnSearch;
-        private TextBox txtSearch;
-        private Label label1;
-        private Label label3;
-        private Label label2;
-        private TextBox txtTongTien;
-        private TextBox txtSoPhong;
-        private TextBox txtNgayMoi;
-        private Label label4;
-        private TextBox txtNgayCu;
-        private GroupBox groupBox3;
+        private Panel panel3;
         private Button button4;
         private Button button3;
         private Button button2;
         private Button button1;
-        private Label label7;
+        private Panel panel2;
+        private Label label1;
+        private Label label2;
+        private TextBox txtTimKiem;
+        private TextBox textBox3;
+        private Label label3;
+        private TextBox textBox2;
         private Label label6;
         private Label label5;
+        private Button button5;
+        private TextBox textBox6;
+        private TextBox textBox4;
+        private Label label4;
     }
 }

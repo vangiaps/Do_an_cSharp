@@ -98,13 +98,18 @@ namespace QuanLyPhongTro
 
         private void txtSearch_TextChanged(object sender, KeyPressEventArgs e)
         {
-            if(e.KeyChar == (char)Keys.Enter)
+            if (e.KeyChar == (char)Keys.Enter)
             {
                 e.Handled = true;
                 btnTimKiem_Click(sender, e);
             }
 
-            
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
