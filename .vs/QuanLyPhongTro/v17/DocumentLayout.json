@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\c#\\Do_an_cSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95D2EB48-E442-4741-89BC-9C47DDFC1630}|QuanLyPhongTro\\QuanLyPhongTro.csproj|e:\\c#\\do_an_csharp\\quanlyphongtro\\frmchitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95D2EB48-E442-4741-89BC-9C47DDFC1630}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\frmchitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D2EB48-E442-4741-89BC-9C47DDFC1630}|QuanLyPhongTro\\QuanLyPhongTro.csproj|e:\\c#\\do_an_csharp\\quanlyphongtro\\frmqlhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{95D2EB48-E442-4741-89BC-9C47DDFC1630}|QuanLyPhongTro\\QuanLyPhongTro.csproj|E:\\c#\\Do_an_cSharp\\quanlyphongtro\\frmqlhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{95D2EB48-E442-4741-89BC-9C47DDFC1630}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\frmqlhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95D2EB48-E442-4741-89BC-9C47DDFC1630}|QuanLyPhongTro\\QuanLyPhongTro.csproj|e:\\c#\\do_an_csharp\\quanlyphongtro\\frmqlhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95D2EB48-E442-4741-89BC-9C47DDFC1630}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\frmqlhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D2EB48-E442-4741-89BC-9C47DDFC1630}|QuanLyPhongTro\\QuanLyPhongTro.csproj|e:\\c#\\do_an_csharp\\quanlyphongtro\\frmchitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D2EB48-E442-4741-89BC-9C47DDFC1630}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\frmchitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95D2EB48-E442-4741-89BC-9C47DDFC1630}|QuanLyPhongTro\\QuanLyPhongTro.csproj|E:\\c#\\Do_an_cSharp\\quanlyphongtro\\frmchitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frmQLHoaDon.cs [Design]",
               "DocumentMoniker": "E:\\c#\\Do_an_cSharp\\QuanLyPhongTro\\frmQLHoaDon.cs",
               "RelativeDocumentMoniker": "QuanLyPhongTro\\frmQLHoaDon.cs",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmChiTietHoaDon.cs",
               "DocumentMoniker": "E:\\c#\\Do_an_cSharp\\QuanLyPhongTro\\frmChiTietHoaDon.cs",
               "RelativeDocumentMoniker": "QuanLyPhongTro\\frmChiTietHoaDon.cs",
@@ -87,13 +87,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "frmQLHoaDon.cs",
               "DocumentMoniker": "E:\\c#\\Do_an_cSharp\\QuanLyPhongTro\\frmQLHoaDon.cs",
               "RelativeDocumentMoniker": "QuanLyPhongTro\\frmQLHoaDon.cs",
               "ToolTip": "E:\\c#\\Do_an_cSharp\\QuanLyPhongTro\\frmQLHoaDon.cs",
               "RelativeToolTip": "QuanLyPhongTro\\frmQLHoaDon.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T07:00:25.512Z",
               "EditorCaption": ""
@@ -120,8 +120,7 @@
               "RelativeToolTip": "QuanLyPhongTro\\frmBaoCao.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAIwGcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T01:39:29.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T01:39:29.317Z"
             },
             {
               "$type": "Document",
